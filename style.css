@@ -1,0 +1,58 @@
+/* Basic page structure */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+nav {
+    background-color: #3CB371;
+    color: white;
+    padding: 12px 20px;
+    display: flex;
+    gap: 20px;
+    font-size: 1rem;
+    flex-wrap: wrap;
+
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Page content spacing */
+main {
+    padding: 20px;
+}
+
+/* Simple headings */
+h1, h2, h3 {
+    margin-top: 0;
+}
+
+@media (max-width: 600px) {
+    nav {
+        font-size: 0.9rem;
+        gap: 12px;
+        padding: 10px;
+    }
+
+    main {
+        padding: 15px;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+
